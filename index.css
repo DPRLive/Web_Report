@@ -99,15 +99,7 @@ ol li {
     color: black;
     font-size: 1.2em;
 }
-.mainFooter {
-    background-color: #5F4B8B;
-    text-align: center;
-    color: white;
-    padding: 3em;
-}
-.mainFooter a{
-    color: white;
-}
+
 .studyNav {
     background-color: rgba(95, 75 , 139, 0.7);
     color: white;
@@ -128,4 +120,26 @@ ol li {
     font-size: 1em;
     color: white;
     text-decoration: none;
+}
+
+#contentSelector {
+    position: absolute;
+    right: 0;
+    padding: 1em;
+}
+
+#selector {
+    background-color: #5F4B8B;
+    color: white;
+    padding: 0.5em;
+}
+
+.mainFooter {
+    background-color: #5F4B8B;
+    text-align: center;
+    color: white;
+    padding: 3em;
+}
+.mainFooter a{
+    color: white;
 }

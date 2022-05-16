@@ -8,7 +8,8 @@
     <style>
         @import url(index.css);
     </style>
-    <body>
+    <script src="script.js"></script>
+    <body onload="changeContent()">
         <nav class = "headNav"> <!-- 맨 위 페이지 이동용 nav, 화면 상단 고정 -->
             <a href="home.html">HOME</a>
             <a href="study.html">STUDY</a>
@@ -19,7 +20,20 @@
             <p>#관심 기업 상세 정보<br><br>크래프톤, 위메이드
         </header> 
 
-        
+        <form id="contentSelector">
+            <select id="selector" onchange="changeContent()">
+                <option value="summary">요약</option>
+                <option value="krafton">크래프톤</option>
+                <option value="wemade">위메이드</option>
+            </select>
+        </form>
+
+        <section class="contentSection" >
+            <header class="contentHeader">기업 정보</header>
+            <article class="contentArticle" id="content">
+                뿌힝
+            </article>
+        </section>
 
         <footer class="mainFooter"> <!-- 메인 footer -->
             201801822 조성윤 웹 프로그래밍 과제 / <a href="https://github.com/DPRLive/Web_Report">github</a> / Email : imusun190812@gmail.com
