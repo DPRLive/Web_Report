@@ -27,7 +27,7 @@ function imgClick()
 }
 
 let krafton = new String(`
-<img src="Krafton_Logo.png" onclick="imgClick()">
+<img src="imgSrc/Krafton_Logo.png" onclick="imgClick()">
 <header class="subHeader">기업소개</header>
 <article class="subArticle"> 
     크래프톤은 특정 장르에서 경쟁력 있는 제작 능력을 갖춘 독립스튜디오들로 구성되어 있습니다. 
@@ -93,7 +93,7 @@ let krafton = new String(`
 `);
 
 let nexon = new String(`
-<img src="Nexon_Logo.png" onclick="imgClick()">
+<img src="imgSrc/Nexon_Logo.png" onclick="imgClick()">
 <header class="subHeader">기업소개</header>
 <article class="subArticle"> 
     1994년 설립, 올해로 창립 20주년을 맞이한 (주)넥슨은 연 매출 2조 8천억원,(2013년 말 넥슨 일본법인 연결매출 기준) 사원수 3,500명 규모의 글로벌 게임회사 입니다.
