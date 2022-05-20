@@ -21,7 +21,7 @@ img {
     height: 80%;
     margin: 1.5em;
 }
-.subArticle li {
+details li {
     color: black;
     font-size: 0.9em;
     margin-left: 1em;
@@ -98,16 +98,14 @@ img {
 
 .contentSection {
     margin: 3em;
+    color: black;
+    font-size: 1.1em;
 }
 .contentHeader {
     color: #5F4B8B;
     padding-bottom: 0.5em;
     font-weight: 600;
     font-size: 2.5em;
-}
-.contentArticle {
-    color: black;
-    font-size: 1.2em;
 }
 
 .subHeader {
@@ -153,9 +151,7 @@ td {
     list-style-type: square;
 }
 .studyNav li {
-    font-size: 1em;
     color: white;
-    text-decoration: none;
 }
 
 #contentSelector {
