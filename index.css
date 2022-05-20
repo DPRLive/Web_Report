@@ -4,7 +4,6 @@ body {
 }
 hr {
     background-color: #5F4B8B;
-    font-weight: 1em;
     height: 0.1em;
     margin: 5%;
 }
@@ -44,14 +43,14 @@ img {
     font-weight: 600;
     color: white;
 }
-.mainHeader {
+.homeHeader {
     background-image: url("imgSrc/headerBackground.png");
     background-size: 100% 100%;
     position: relative;
     width: 100%;
     height: 30em;
 }
-.mainHeader p {
+.homeHeader p {
     margin: 0%;
     width: 100%;
     position: absolute;
