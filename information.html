@@ -27,6 +27,19 @@
             </select>
         </form>
 
+        <canvas id="myCanvas" width="500px" height="150px"></canvas>
+        <script>
+            let canvas = document.getElementById("myCanvas");
+            let context = canvas.getContext("2d");
+            context.strokeStyle = "#5F4B8B";
+            context.font = "50px arial";
+            
+            context.fillStyle = "#5F4B8B";
+            context.fillText("선택한 기업 정보", 50, 100);
+            context.font = "20px forte";
+            context.fillText("(우측에서 옵션 선택)", 70, 140);
+        </script>
+
         <section class="contentSection">
             <header class="contentHeader" id="selectedCompany"></header>
             <div id="content">
